@@ -59,7 +59,7 @@
     <img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white" />
   </a>&nbsp;
   <a href="https://fullportf.netlify.app/">
-    <img src="https://img.shields.io/badge/Website-3498DB?style=for-the-badge&logo=google-chrome&logoColor=white" />
+   
   </a>
 </p>
 
