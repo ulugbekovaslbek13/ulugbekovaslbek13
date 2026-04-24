@@ -3,7 +3,7 @@
 </div>
 
 <div align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=800&size=28&duration=2000&pause=1000&color=00FF7F&center=true&vCenter=true&width=500&lines=Salom+men+Junior++Dasturchi;IT+Park+Al-Xorazmiy+loyihasi;Menga+obuna+bo'ling  zo'r kontentlar hali oldinda !" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=800&size=28&duration=2000&pause=1000&color=00FF7F&center=true&vCenter=true&width=500&lines=Salom+men+Junior++Dasturchi;IT+Park+Al-Xorazmiy+loyihasi;Menga+obuna+bo'ling!" />
 </div>
 
 <div align="center">
