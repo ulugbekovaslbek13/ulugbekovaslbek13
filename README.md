@@ -58,25 +58,24 @@
   <a href="https://www.instagram.com/_u1ugbekovvvx71_/">
     <img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white" />
   </a>&nbsp;
-  <a href="https://fullportf.netlify.app/">
-   
-  </a>
 </p>
 
+<img src="https://github.com/user-attachments/assets/2127c7c0-3cbb-41f4-849b-18bed46529ca" style="width: 100%;" />
+
+<h2 align="center">📲 Scan to Connect</h2>
+<table align="center">
+  <tr>
+    <td align="center"><b>Instagram</b></td>
+    <td align="center"><b>Telegram</b></td>
+    <td align="center"><b>Gmail</b></td>
+  </tr>
+  <tr>
+    <td><img src="Instagram_QR.png" width="150" /></td>
+    <td><img src="Telegram_QR.png" width="150" /></td>
+    <td><img src="Google_Mail_QR.png" width="150" /></td>
+  </tr>
+</table>
+
 <div align="center">
- 
+  
 </div>
-
-<!--
-**ulugbekovaslbek13/ulugbekovaslbek13** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-
-Here are some ideas to get you started:
-
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 ProFun fact: ...
--->
