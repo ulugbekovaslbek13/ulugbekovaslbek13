@@ -1,4 +1,4 @@
-# ⚡ ULUG'BEKOVASLBEK13
+# 🌟 ULUG'BEKOVASLBEK13
 
 <p align="center">
   <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a68c189b4.gif" width="100%" />
@@ -9,14 +9,6 @@
 * 🎓 **Ta'lim:** Xorazm viloyati, Xonqa tumanidagi 26-sonli maktab o'quvchisiman (7-sinf).
 * 💻 **Loyiha:** **IT Park** nufuzli **"Al-Xorazmiy"** loyihasining faol o'quvchisiman.
 * 🚀 **Yo'nalish:** Junior Full-Stack dasturchi. **Java, JavaScript, Python, HTML va CSS** tillarida loyihalar ustida ishlayman.
-
----
-
-## 🟢 My GitHub Activity
-
-<p align="center">
-  <img src="https://activity-graph.herokuapp.com/graph?username=ulugbekovaslbek13&theme=github-green&bg_color=0d1117&color=10b981&line=10b981&point=ffffff&area=true&hide_border=true" width="100%" />
-</p>
 
 ---
 
@@ -33,7 +25,19 @@
 
 ---
 
-## 📬 Connect with me:
+## 📊 GitHub Stats & Dynamic Activity
+
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=ulugbekovaslbek13&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=38bdf8&text_color=9ca3af&icon_color=38bdf8" width="85%" />
+</p>
+
+<p align="center">
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=ulugbekovaslbek13&theme=tokyonight&hide_border=true&background=0d1117&ring=38bdf8&fire=38bdf8" width="85%" />
+</p>
+
+---
+
+## 📬 Connect with me (Rangli Tugmalar):
 
 <p align="center">
   <a href="mailto:tojibayevlutfulla@gmail.com">
@@ -52,7 +56,7 @@
 
 ---
 
-## 📱 Scan to Connect
+## 📱 Scan to Connect (QR Codes)
 
 <p align="center">
   <b>Instagram</b> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <b>Telegram</b> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <b>Gmail</b>
@@ -66,15 +70,6 @@
 
 ---
 
-## 📊 GitHub Stats
-
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=ulugbekovaslbek13&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=38bdf8&text_color=9ca3af&icon_color=38bdf8" width="85%" />
-</p>
-
-<br />
-
-<p align="center">
-  <font color="#94a3b8">Mehmonlar hisoblagichi:</font><br />
+<div align="center">
   <img src="https://profile-counter.glitch.me/ulugbekovaslbek13/count.svg" />
-</p>
+</div>
