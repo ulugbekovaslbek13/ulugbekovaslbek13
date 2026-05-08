@@ -1,81 +1,147 @@
-<div align="center">
-  
+<!DOCTYPE html>
+<html lang="uz">
+<head>
+<meta charset="UTF-8">
+<title>Habit Tracker</title>
+
+<style>
+body{
+  background:#0f172a;
+  color:white;
+  font-family:Arial;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  min-height:100vh;
+  margin:0;
+}
+
+.container{
+  background:#1e293b;
+  padding:25px;
+  border-radius:15px;
+  width:400px;
+  text-align:center;
+}
+
+input{
+  width:100%;
+  padding:10px;
+  border:none;
+  border-radius:8px;
+  margin-top:10px;
+}
+
+button{
+  margin-top:15px;
+  padding:10px 15px;
+  border:none;
+  border-radius:8px;
+  background:#38bdf8;
+  cursor:pointer;
+}
+
+.item{
+  background:#334155;
+  margin-top:10px;
+  padding:10px;
+  border-radius:10px;
+  text-align:left;
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+}
+
+.done{
+  text-decoration:line-through;
+  color:#22c55e;
+}
+</style>
+</head>
+
+<body>
+
+<div class="container">
+
+<h1>🧭 Habit Tracker</h1>
+
+<input id="habit" placeholder="New habit...">
+
+<button onclick="addHabit()">➕ Add</button>
+
+<div id="list"></div>
+
 </div>
 
-<div align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=800&size=28&duration=2000&pause=1000&color=00FF7F&center=true&vCenter=true&width=500&lines=Salom+men+Junior++Dasturchi;IT+Park+Al-Xorazmiy+loyihasi;Menga+obuna+bo'ling!" />
-</div>
+<script>
+let habits = JSON.parse(localStorage.getItem("habits")) || [];
 
-<div align="center">
-  <a href="https://github.com/ulugbekovaslbek13?tab=followers">
-    <img src="https://img.shields.io/badge/FOLLOW%20ME-2EA44F?style=for-the-badge&logo=github&logoColor=white" />
-  </a>
-</div>
+function save(){
+  localStorage.setItem("habits", JSON.stringify(habits));
+}
 
-<br/>
+function addHabit(){
 
-<div align="center">
-  <img src="https://img.shields.io/github/stars/ulugbekovaslbek13/ulugbekovaslbek13?label=STARS&color=gold&style=flat-square" />
-  <img src="https://img.shields.io/github/followers/ulugbekovaslbek13?label=FOLLOWERS&color=yellow&style=flat-square" />
-  <img src="https://komarev.com/ghpvc/?username=ulugbekovaslbek13&label=PROFILE%20VIEWS&color=0e75b6&style=flat" />
-</div>
+  const habit =
+    document.getElementById("habit").value;
 
-<br/>
+  if(!habit) return;
 
-<img src="https://github.com/user-attachments/assets/2127c7c0-3cbb-41f4-849b-18bed46529ca" style="width: 100%;" />
+  habits.push({text:habit,done:false});
 
-<h2 align="center">📊 My GitHub Activity</h2>
-<div align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=ulugbekovaslbek13&theme=react-dark&bg_color=000000&color=00FF7F&line=00FF7F&point=ffffff&hide_border=true&area=true" width="100%" />
-</div>
+  save();
+  render();
 
-<div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=ulugbekovaslbek13&show_icons=true&theme=tokyonight&count_private=true&hide_border=true" height="180" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=ulugbekovaslbek13&layout=compact&theme=tokyonight&hide_border=true" height="180" />
-</div>
+  document.getElementById("habit").value = "";
+}
 
-<img src="https://github.com/user-attachments/assets/2127c7c0-3cbb-41f4-849b-18bed46529ca" style="width: 100%;" />
+function toggle(i){
+  habits[i].done = !habits[i].done;
+  save();
+  render();
+}
 
-<h2 align="center">🚀 Skills & Tech Stack</h2>
-<p align="center">
-  <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" />
-  <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" />
-  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" />
-  <img src="https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=java&logoColor=white" />
-  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" />
-</p>
+function remove(i){
+  habits.splice(i,1);
+  save();
+  render();
+}
 
-<img src="https://github.com/user-attachments/assets/2127c7c0-3cbb-41f4-849b-18bed46529ca" style="width: 100%;" />
+function render(){
 
-<h2 align="center">🤝 Connect with me:</h2>
-<p align="center">
-  <a href="mailto:tojibayevlutfulla@gmail.com">
-    <img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" />
-  </a>&nbsp;
-  <a href="https://t.me/ulugbekovvv_3">
-    <img src="https://img.shields.io/badge/Telegram-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white" />
-  </a>&nbsp;
-  <a href="https://www.instagram.com/_u1ugbekovvvx71_/">
-    <img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white" />
-  </a>&nbsp;
-</p>
+  const list =
+    document.getElementById("list");
 
-<img src="https://github.com/user-attachments/assets/2127c7c0-3cbb-41f4-849b-18bed46529ca" style="width: 100%;" />
+  list.innerHTML = "";
 
-<h2 align="center">📲 Scan to Connect</h2>
-<table align="center">
-  <tr>
-    <td align="center"><b>Instagram</b></td>
-    <td align="center"><b>Telegram</b></td>
-    <td align="center"><b>Gmail</b></td>
-  </tr>
-  <tr>
-    <td><img src="Instagram_QR.png" width="150" /></td>
-    <td><img src="Telegram_QR.png" width="150" /></td>
-    <td><img src="Google_Mail_QR.png" width="150" /></td>
-  </tr>
-</table>
+  habits.forEach((h,i)=>{
 
-<div align="center">
-  
-</div>
+    list.innerHTML += `
+      <div class="item">
+
+        <span class="${h.done ? "done" : ""}">
+          ${h.text}
+        </span>
+
+        <div>
+
+          <button onclick="toggle(${i})">
+            ✔
+          </button>
+
+          <button onclick="remove(${i})">
+            ❌
+          </button>
+
+        </div>
+
+      </div>
+    `;
+  });
+}
+
+render();
+</script>
+
+</body>
+</html>
