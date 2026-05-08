@@ -58,7 +58,7 @@
   <tr>
     <td><img src="Instagram_QR.png" width="150" /></td>
     <td><img src="Telegram_QR.png" width="150" /></td>
-    <td><img src="https://api.qrserver.com/v1/create-qr-code/?size=150x150&data=mailto:tojibayevlutfulla@gmail.com" width="150" /></td>
+    <td><img src="Google_Mail_QR.png" width="150" /></td>
   </tr>
 </table>
 <div align="center">
