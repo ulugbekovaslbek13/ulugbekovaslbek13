@@ -22,8 +22,7 @@
   <img src="https://github-readme-activity-graph.vercel.app/graph?username=ulugbekovaslbek13&theme=react-dark&bg_color=000000&color=00FF7F&line=00FF7F&point=ffffff&hide_border=true&area=true" width="100%" />
 </div>
 <div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=ulugbekovaslbek13&show_icons=true&theme=tokyonight&count_private=true&hide_border=true" height="180" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=ulugbekovaslbek13&layout=compact&theme=tokyonight&hide_border=true" height="180" />
+  
 </div>
 <img src="https://github.com/user-attachments/assets/2127c7c0-3cbb-41f4-849b-18bed46529ca" style="width: 100%;" />
 <h2 align="center">🚀 Skills & Tech Stack</h2>
